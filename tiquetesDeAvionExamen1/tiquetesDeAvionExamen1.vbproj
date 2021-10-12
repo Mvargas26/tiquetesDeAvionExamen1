@@ -87,9 +87,11 @@
     </Compile>
     <Compile Include="frmOperaciones.Designer.vb">
       <DependentUpon>frmOperaciones.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="frmOperaciones.vb">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="frmPrincipal.vb">
       <SubType>Form</SubType>
@@ -123,6 +125,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmOperaciones.resx">
       <DependentUpon>frmOperaciones.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.vb</DependentUpon>

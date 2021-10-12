@@ -123,6 +123,7 @@
             .Add("Colombia")
             .Add("Panamá")
             .Add("U.S.A")
+            .Add("Ecuador")
         End With
 
         With Me.cmbPaisDestino.Items
@@ -165,5 +166,7 @@
         frmPrincipal.pantallaAbierta = False
     End Sub
 
+    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
 
+    End Sub
 End Class
